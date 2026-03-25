@@ -1,6 +1,5 @@
 import StickyNav from "../components/StickyNav";
 import MobileCTA from "../components/MobileCTA";
-import ExitIntent from "../components/ExitIntent";
 import Hero from "../components/Hero";
 import TrustStrip from "../components/TrustStrip";
 import Problem from "../components/Problem";
@@ -17,7 +16,6 @@ export default function Home() {
     <>
       <StickyNav />
       <MobileCTA />
-      <ExitIntent />
       <main id="main">
         <Hero />
         <TrustStrip />
