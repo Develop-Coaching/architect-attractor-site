@@ -77,17 +77,17 @@ export default function ROICalculator() {
                 </p>
                 <input
                   type="range"
-                  min={25000}
-                  max={500000}
-                  step={5000}
+                  min={50000}
+                  max={2000000}
+                  step={10000}
                   value={projectValue}
                   onChange={(e) => setProjectValue(Number(e.target.value))}
                   className="w-full accent-dc-blue"
                   aria-label="Average project value"
                 />
                 <div className="flex justify-between text-xs text-dc-grey-mid mt-1">
-                  <span>£25,000</span>
-                  <span>£500,000</span>
+                  <span>£50,000</span>
+                  <span>£2,000,000</span>
                 </div>
               </div>
 

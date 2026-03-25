@@ -4,7 +4,6 @@ import ExitIntent from "../components/ExitIntent";
 import Hero from "../components/Hero";
 import TrustStrip from "../components/TrustStrip";
 import Problem from "../components/Problem";
-import Solution from "../components/Solution";
 import HowItWorks from "../components/HowItWorks";
 import SocialProof from "../components/SocialProof";
 import ROICalculator from "../components/ROICalculator";
@@ -23,7 +22,6 @@ export default function Home() {
         <Hero />
         <TrustStrip />
         <Problem />
-        <Solution />
         <HowItWorks />
         <SocialProof />
         <ROICalculator />
