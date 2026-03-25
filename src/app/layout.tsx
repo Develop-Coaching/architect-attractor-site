@@ -4,9 +4,9 @@ import "./globals.css";
 import Script from "next/script";
 
 const sourceSans = Source_Sans_3({
-  variable: "--font-source-sans",
   subsets: ["latin"],
   weight: ["300", "400", "600", "700", "900"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html
       lang="en-GB"
-      className={`${sourceSans.variable} h-full antialiased`}
+      className={`${sourceSans.className} h-full antialiased`}
     >
       <head>
         {/* GA4 — replace G-XXXXXXXXXX with your actual measurement ID */}
